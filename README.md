@@ -5,3 +5,5 @@ Para começar a fazer um CRUD primeiro precisamos das configurações necessaria
 com isso conseguimos ter o acesso as configurações do sistemas
 
 Logo após fazemos o [index](https://github.com/JohnnyNF/php-praticas-crud/blob/main/arquivos/index.php) inserimos dados primarios para desenvolver os CRUD's
+
+Após isso adicionammos a a verificação da query e as ações que vai ocorrer [Adiciona-Ação](https://github.com/JohnnyNF/php-praticas-crud/blob/main/arquivos/adicionar_action.php)

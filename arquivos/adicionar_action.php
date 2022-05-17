@@ -10,10 +10,13 @@ $email = filter_input(INPUT_GET, 'email', FILTER_VALIDATE_EMAIL);
 // Para inserir um novo usuario fazemos o seguinte
 if($name && $email){
 
+    // Para fazer uma verificação se o email já existe 
+    $sql = $pdo->prepare("SELECT * FROM usuarios WHERE email = :email");
+    
     // Vou chamar a variável $sql e transformar os valores que está na variável $name e $email
     $sql = $pdo->prepare("INSERT INTO usuarios (nome, email) VALUES(:name, :email)");
     $sql->bindValue(':name', $name);
-     $sql->bindParam(':email', $email);
+    $sql->bindParam(':email', $email);
     // Isso ira executar o banco para inserir 
     $sql->execute();
     
