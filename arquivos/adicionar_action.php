@@ -14,6 +14,7 @@ if($name && $email){
     // Fazer uma verificação 
     $sql = $pdo->prepare("SELECT * FROM usuarios WHERE email = :email");
     $sql->bindValue(':email', $email);
+    $sql->execute();
     
     // Para fazer uma verificação se o email já existe no sistema utilizo o rowCount--->Vai me dizer a quantidade de registros
     if ($sql->rowCount()===0){

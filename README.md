@@ -8,4 +8,5 @@ Logo após fazemos o [index](https://github.com/JohnnyNF/php-praticas-crud/blob/
 
 Após isso adicionammos a a verificação da query e as ações que vai ocorrer [adiciona-ação](https://github.com/JohnnyNF/php-praticas-crud/blob/main/arquivos/adicionar_action.php)
 
-Verificamos se o email existe e se ele exister nós utilizamos uma consulta junto com uma verificação [verificação_com_rowCount()]()
+Verificamos se o email existe e se ele exister nós utilizamos uma consulta junto com uma verificação [verificação_com_rowCount()](https://github.com/JohnnyNF/php-praticas-crud/blob/main/arquivos/adicionar_action.php)
+
