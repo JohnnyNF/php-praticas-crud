@@ -1,5 +1,5 @@
 <h1>ADICIONAR USUARIO</h1>
-
+<!--Formulario para adicionar um novo usuario no sistema-->
 <form method="GET" action="adicionar_action.php">
     <label>
         Nome:<br/>

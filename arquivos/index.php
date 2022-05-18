@@ -12,7 +12,7 @@ if($sql->rowCount()>0){
 }
 ?>
 
-<a href="adicionar.php">ADICIONAR USUARIO</a>
+<a class="btn-add-user" href="adicionar.php">ADICIONAR USUARIO</a>
 
 <table border="1" width="100%">
     <tr>
@@ -28,8 +28,8 @@ if($sql->rowCount()>0){
             <td><?php echo $usuario['nome']; ?></td>
             <td><?php echo $usuario['email'] ?></td>
             <td>
-                <a href="editar.php?id=<?php echo $usuario['id']; ?>">[Editar]</a>
-                <a href="excluir.php?id=<?php echo $usuario['id']; ?>">[Excluir]</a>
+                <a class="btn-edit" href="editar.php?id=<?php echo $usuario['id']; ?>">[Editar]</a>
+                <a class="btn-delete" href="excluir.php?id=<?php echo $usuario['id']; ?>">[Excluir]</a>
             </td>
         </tr>
     <?php endforeach ?>
