@@ -1,4 +1,3 @@
-<!--Formulario para adicionar um novo usuario no sistema-->
 <h1>ADICIONAR USUARIO</h1>
 
 <form method="GET" action="adicionar_action.php">
