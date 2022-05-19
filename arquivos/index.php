@@ -4,7 +4,7 @@ require 'config.php';
 // Ele vai pegar cada array e adicionar dentro da variavel
 $lista =[];
 // Os dados que vão apararecer na tela que vai ler os dados
-$sql = $pdo->query("SELECT * FROM usuario");
+$sql = $pdo->query("SELECT * FROM usuarios");
 
 // Verificar se tem algum usuario e se etiver mostrar ele na tela 
 if($sql->rowCount()>0){
