@@ -32,18 +32,21 @@ if($id) {
     exit;
 }
 ?>
+
 <h1>Editar Usuario</h1>
 
 <form method="GET" action="editar_action.php">
+    <input type="hidden" name="id" value="<?=$info['id']?>" />
     <label>
         Nome:<br/>
-        <input type="text" name="name"/>
+        <input type="text" name="name" value="<?=$info['nome']?>" />
     </label><br/><br/>
     
     <label>
         E-mail:<br/>
-        <input type="email" name="email"/>
+        <input type="email" name="email" value="<?=$info['email']?>" />
     </label><br/><br/>
 
     <input type="submit" value="Editar" />
 </form>
+

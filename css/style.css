@@ -1,18 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(29, 29, 29);
 }
 
 
 table {
     border-collapse: collapse;
-    margin: 5px;
-   
+    margin: 3px;
+    margin-top: 20px;
+    
 }
 
 th{
+    font-size: 20px;
     padding: 5px;
+    background-color: #ccc;
 } 
 
 tr:nth-child(even){
@@ -23,6 +29,7 @@ tr:nth-child(even){
 td{
     text-align: center;
     padding: 7px;
+    color: white;
 }
 
 
@@ -34,7 +41,8 @@ td{
     height: 200px;
     background-color: rgb(70, 144, 255);
     border-radius: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .btn-delete{
@@ -44,10 +52,31 @@ td{
     height: 200px;
     background-color: rgb(207, 63, 63);
     border-radius: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
 }
 
 .btn-add-user{
     text-decoration: none;
-    
+    color: black;
+    border: 1px solid white;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 50px;
+    font-size: 17px;
+    background-color: rgb(180, 175, 175);
 }
+
+.btn-add-user:hover{
+    background-color: rgb(68, 68, 65);
+    color: #fff;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+
