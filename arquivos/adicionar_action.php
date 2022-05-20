@@ -33,12 +33,12 @@ if($name && $email){
 
 }else{
     // Caso contrario precisamos voltar para a minha pagina de adicionar e digitamos novamente os campos informados
-    header("Location: adicionar.php");
+    header("Location: adicionar.html");
     exit;
 }
 }
 
 else {
-    header("Location: adicionar.php");
+    header("Location: adicionar.html");
     exit;
 }

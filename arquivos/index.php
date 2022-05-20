@@ -27,7 +27,7 @@ if ($sql->rowCount() > 0) {
 
     <h2>Cadastro</h2>
 
-    <a class="btn-add-user" href="adicionar.php">ADICIONAR USUARIO</a>
+    <a class="btn-add-user" href="adicionar.html">ADICIONAR USUARIO</a>
 
     <table border="1" width="99.5%">
         <tr>
